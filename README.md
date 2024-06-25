@@ -16,4 +16,4 @@ copy .env.example .env
 set your environment variable in the ".env" file like "OPEN_API_KEY" value.
 
 ### run fast api server
-uvicorn main:app --reload --host 0.0.0.0 --port 5000 
+uvicorn main2:app --reload --host 0.0.0.0 --port 5000 
