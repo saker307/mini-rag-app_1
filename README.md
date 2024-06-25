@@ -1,11 +1,19 @@
-- 👋 Hi, I’m @saker307
-- 👀 I’m interested in AI applications
-- 🌱 I’m currently learning LLM        
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me 01026388102 whatsapp
+# mini-rag-app
+this is a minimal implimintation of the rag model for questioning and answring
+## Requirments
+python 3.8 or latter
 
+### install python from pthon page [https://www.python.org/downloads/]
+make python download now you have python in your pc 
 
-<!---
-saker307/saker307 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## installation
+***
+### install requirements packages
+pip install -r requirements.txt
+***
+### setup the environment variable
+copy .env.example .env
+set your environment variable in the ".env" file like "OPEN_API_KEY" value.
+
+### run fast api server
+uvicorn main:app --reload --host 0.0.0.0 --port 5000 
